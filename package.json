@@ -1,0 +1,32 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Here goes my description",
+  "keywords": [
+    "Medi"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "MediTime"
+  },
+  "license": "ISC",
+  "author": "Erwin Torres",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "server": "nodemon backend/server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "colors": "^1.4.0",
+    "crypt": "^0.0.2",
+    "dotenv": "^18.0.5",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.10.4"
+  },
+  "allowScripts": {
+    "bcrypt@6.0.0": true
+}
+}
